@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #0a0a0a;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.nav-bar {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background: rgba(9, 9, 9, 0.4);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.nav-bar a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+.nav-bar .logo {
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.nav-bar .essential {
+    display: flex;
+    gap: 60px;
+    font-size: 1.2rem;
+    position: relative;
+    right: 0;
+}
+
+
+.page1 {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(9, 9, 9, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6rem;
+    /* background-image: url("assets/image/bg.webp"); */
+    position: relative;
+}
+
+.page1 .circle{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(57, 24, 91);
+    border-radius: 50%;
+    position: relative;
+    top: -80px;
+    left: -180px;
+}
+
+.page1 .line{
+    width: 390px;
+    height: 20px;
+    background-color: rgb(78, 85, 20);
+    position: relative;
+    top: 80px;
+    left: -120px;
+    rotate: 155deg;
+}
+
+.page1 .square{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(81, 15, 26);
+    border-radius: 10%;
+    position: relative;
+    top: 80px;
+    left: 180px;
+}
+
+.page1 .text {
+    /* border: 1px solid red; */
+    background: rgba(9, 9, 9, 0.4);
+    backdrop-filter: blur(12px);
+    position: absolute;
+}
+
+.page1 .text h2 {
+    font-size: 5rem;
+}
+
+.page1 .text h4 {
+    font-size: 2rem;
+}
+
+.page1 .text h1 {
+    font-size: 7rem;
+}
+
+.page1 .text h3 {
+    font-size: 3rem;
+    letter-spacing: 1.6rem;
+}
+
+
+.page2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding: 4vw 0;
+}
+
+.page5 {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
